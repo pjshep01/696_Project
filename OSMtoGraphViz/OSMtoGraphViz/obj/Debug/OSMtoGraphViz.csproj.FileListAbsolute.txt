@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.exe
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.pdb
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.exe
+c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.pdb
