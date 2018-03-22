@@ -13,8 +13,8 @@ namespace OSMtoGraphViz
         static void Main(string[] args)
         {
             double size = 4096;
-            string path = ".\\newyork.dot";
-            string osm_path = "C:\\Users\\admin\\Downloads\\new-york-latest.osm";
+            string path = ".\\louisville.dot";
+            string osm_path = "C:\\Users\\pjshep01\\Downloads\\louisville.osm";
             List<string> store = new List<string>();
             
             path = Functions.Check_Filename(path, 0);
