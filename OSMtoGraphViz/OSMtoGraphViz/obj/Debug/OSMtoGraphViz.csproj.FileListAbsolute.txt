@@ -4,9 +4,7 @@ c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz
 c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.exe
 c:\users\admin\documents\visual studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.pdb
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.exe.config
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.exe
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.pdb
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.exe
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\OSMtoGraphViz.pdb
-C:\Users\pjshep01\Downloads\696_Project-master\696_Project-master\OSMtoGraphViz\OSMtoGraphViz\obj\Debug\OSMtoGraphViz.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Documents\Visual Studio 2015\Projects\OSMtoGraphViz\OSMtoGraphViz\bin\Debug\System.Net.Http.Formatting.xml

@@ -22,7 +22,7 @@
             min_x = minx;
             max_x = maxx;
             min_y = miny;
-            max_y = maxy;
+            max_y = min_y;
         }
     }
 }

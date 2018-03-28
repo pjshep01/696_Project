@@ -19,7 +19,7 @@ namespace OSMtoGraphViz
             if (!File.Exists(version))
             {
                 // Create a file to write to.
-                string createText = "digraph G{\r\nnode[fontsize=.005,height =.1,width=.1,fixedsize=true];\r\nedge[arrowsize=.1];\r\n";
+                string createText = "digraph G{\r\nnode[fontsize=.5,height =.1,width=.1,fixedsize=true];\r\nedge[arrowsize=.1];\r\n";
                 File.WriteAllText(version, createText);
                 newpath = version;
             }
@@ -34,7 +34,7 @@ namespace OSMtoGraphViz
         }
         public static OSM_Structs.Min_Max GetMinMax(string path)
         {
-            OSM_Structs.Min_Max mm = new OSM_Structs.Min_Max(-40.0f,-160.0f,100.0f,20.0f);
+            OSM_Structs.Min_Max mm = new OSM_Structs.Min_Max(-40.0f,-160.0f,69.0f,20.0f);
             if(!File.Exists(path))
             {
                 mm.status = false;
@@ -87,8 +87,6 @@ namespace OSMtoGraphViz
                 }
             }
             mm.status = true;
-            //Console.WriteLine("Min x: " + mm.min_x + "Max x: " + mm.max_x + "Min y: " + mm.min_y + "Max y: " + mm.max_y);
-            //Console.ReadLine();
             return mm;
         }
         public static void Build_Dot_File(
@@ -103,15 +101,13 @@ namespace OSMtoGraphViz
             string second_point = null;
             float Z = mm.min_x - mm.max_x;
             float C = mm.min_y - mm.max_y;
-            //Console.WriteLine(Z + " " + C);
-            //Console.ReadLine();
             using (XmlReader reader = XmlReader.Create(path))
             {
                 while (reader.Read())
                 {
                     if(store.Count > 500000)
                     {
-                        //Console.WriteLine("Here");
+                        Console.WriteLine("Here");
                         File.AppendAllLines(out_path, store);
                         store.Clear();
                     }
@@ -128,11 +124,9 @@ namespace OSMtoGraphViz
                                     float flg;
                                     float.TryParse(lt, out flt);
                                     float.TryParse(lg, out flg);
-                                    //Console.WriteLine(flg + " " + flt);
                                     float x = ((mm.max_x - flg) / (Z)) * (float)size;
-                                    float y = ((mm.max_y - flt) / (C)) * ((float)size);
+                                    float y = ((mm.max_y - flt) / (C)) * (float)size;
                                     //Console.WriteLine(x + " " + y);
-                                    //Console.ReadLine();
                                     store.Add(reader.GetAttribute("id") + " [pos = \"" + x + "," + y + "!\"];");
                                 }
                             }
